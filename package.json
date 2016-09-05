@@ -1,0 +1,23 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "angluar project",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello World"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfillary/angular-todo.git"
+  },
+  "keywords": [
+    "angular",
+    "js"
+  ],
+  "author": "Andrew Fillary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewfillary/angular-todo/issues"
+  },
+  "homepage": "https://github.com/andrewfillary/angular-todo#readme"
+}
