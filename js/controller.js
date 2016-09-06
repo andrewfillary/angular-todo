@@ -2,7 +2,7 @@ angular.module('RouteControllers', [])
     .controller('HomeController', function($scope) {
         $scope.title = "Welcome To Angular Todo!";
     })
-    .controller('RegisterController', function($scope) {
+    .controller('RegisterController', function($scope, UserAPIService) {
  
         $scope.registrationUser = {};
  
@@ -12,6 +12,6 @@ angular.module('RouteControllers', [])
                 $scope.registrationUser.password = $scope.user.password;
             }
  
-            console.log($scope.registrationUser.username + " " + $scope.registrationUser.password);
-        }
+            console.log($scope.registrationUser.name + " " + $scope.registrationUser.password);
+        };
     });
