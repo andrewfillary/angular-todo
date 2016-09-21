@@ -12,6 +12,6 @@ angular.module('RouteControllers', [])
                 $scope.registrationUser.password = $scope.user.password;
             }
  
-            console.log($scope.registrationUser.name + " " + $scope.registrationUser.password);
+            console.log($scope.registrationUser.username + " " + $scope.registrationUser.password);
         };
     });
