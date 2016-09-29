@@ -7,7 +7,7 @@ angular.module('UserService', [])
             }
         }
         return UserAPIService;
-    });
+    })
 
 angular.module('TodoService', [])
     .factory('TodoAPIService', function($http) {
